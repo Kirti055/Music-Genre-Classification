@@ -1,0 +1,17 @@
+# Virtual environment
+venv/
+
+# Dataset folder
+Data/
+dataset/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Other model formats (but NOT .h5)
+*.pt
+*.pth
+
+# VS Code settings
+.vscode/
