@@ -1,0 +1,38 @@
+MUSIC GENRE CLASSIFIER - EVALUATION RESULTS
+=======================================================
+
+Overall Accuracy   : 95.44%
+Balanced Accuracy : 96.05%
+Top-2 Accuracy    : 99.01%
+Top-3 Accuracy    : 99.78%
+
+Classification Report:
+              precision    recall  f1-score   support
+
+       blues      0.952     0.997     0.974       380
+   classical      0.858     1.000     0.923       380
+     country      0.950     0.950     0.950       524
+       disco      0.992     0.982     0.987       380
+      hiphop      0.940     0.989     0.964       380
+        jazz      0.973     0.928     0.950       540
+       metal      0.977     0.984     0.980       380
+         pop      0.939     0.968     0.953       432
+      reggae      0.994     0.922     0.957       575
+        rock      0.963     0.885     0.923       566
+
+    accuracy                          0.954      4537
+   macro avg      0.954     0.961     0.956      4537
+weighted avg      0.956     0.954     0.954      4537
+
+
+Per-Genre Accuracy:
+classical    : 100.00%
+blues        : 99.74%
+hiphop       : 98.95%
+metal        : 98.42%
+disco        : 98.16%
+pop          : 96.76%
+country      : 95.04%
+jazz         : 92.78%
+reggae       : 92.17%
+rock         : 88.52%
